@@ -1,13 +1,32 @@
-/* Blood Pressure */
+/* 門限 */
 #include <iostream>
+using namespace std;
 
 int main() {
-    double A, B;
-    std::cin >> A >> B;
-    std::cout << (A-B)/3 + B << std::endl;
+    int h, m;
+    cin >> h >> m;
+    cout << 18*60 - (h*60+m) << endl;
 
     return 0;
 }
+
+
+/* 高橋君の研修 */
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     string A, B;
+//     cin >> A >> B;
+    
+//     if(A.length() > B.length()) {
+//         cout << A << endl;
+//     }else{
+//         cout << B << endl;
+//     }
+
+//     return 0;
+// }
 
 
 /* Rotate */
